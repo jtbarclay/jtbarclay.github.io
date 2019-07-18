@@ -1,19 +1,112 @@
-.resume-section {
-		text-align: center;
+/*change links to black, remove underline unless hovered */
+a:link {
+	color: black;
+	text-decoration: none;
 }
 
-.hobbies-heading {
-		text-align: center;
+a:visited {
+	color: black;
+	text-decoration: none;
 }
 
-.hobbies-description {
-		text-align: center;
+a:hover {
+	color: black;
+	text-decoration: underline;
 }
 
-.awards-heading {
-		text-align: center;
+
+/*set background color */
+body {
+	background-color: #209CEE;
 }
 
-.awards-presenter {
-		text-align: center;
+
+/* Header */
+.hellomyname {
+	background-color: #209CEE;
+	
+	text-align: center;
+	color: white;
+}
+
+.hello {
+	font-size: 6.0em;
+}
+
+.myname {
+	font-size: 1.5em;
+}
+
+/*create bubbles for each section, fit text neatly inside */
+
+.name {
+	text-align: center;
+	border-radius: 25px;
+	background-color: white;
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	margin-bottom: 50px;
+}
+
+.employment {
+	border-radius: 25px;
+	background-color: white;
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	margin-bottom: 50px;
+}
+
+.hobbies {
+	text-align: center;
+	border-radius: 25px;
+	background-color: white;
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	margin-bottom: 50px;
+}
+
+.awards {
+	text-align: center;
+	border-radius: 25px;
+	background-color: white;
+	
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 50px;
+	padding-right: 50px;
+	
+	margin-bottom: 50px;
+}
+
+/* center header text in left aligned section */
+.resume-section{
+	text-align: center;
+}
+
+/* fix text spacing issues */
+
+.job-company {
+	margin-bottom: -15px;
+}
+
+.job-title {
+	margin-top: -8px;
+	margin-bottom: -5px;
+}
+
+p {
+	margin-bottom: -3px;
+}
+
+li {
+	margin-bottom: -3px;
 }
